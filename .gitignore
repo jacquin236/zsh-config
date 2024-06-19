@@ -1,6 +1,3 @@
-# zinit
-zinit/*
-!zinit/zinit
 #zsh
 *zcompdump*
 .zsh_history
