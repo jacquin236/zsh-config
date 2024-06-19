@@ -6,7 +6,7 @@ export FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 export ZSH="$ZDOTDIR/ohmyzsh"
 export ZSH_COMPDUMP="${__zsh_cache_dir}/compdump/.zcompdump-${SHORT_HOST}-${ZSH_VERSION}"
 
-ZSH_THEME="robbyrussell" # set by `omz`
+ZSH_THEME="random" # set by `omz`
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 HIST_STAMPS="dd.mm.yyyy"
 
