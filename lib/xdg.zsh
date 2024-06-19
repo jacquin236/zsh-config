@@ -74,6 +74,9 @@ export PGSERVICEFILE="${PGSERVICEFILE:-$XDG_CONFIG_HOME/pg/pg_service.conf}"
 # rust
 export CARGO_HOME="${CARGO_HOME:-$XDG_CACHE_HOME/cargo}"
 export RUSTUP_HOME="${RUSTUP_HOME:-$XDG_DATA_HOME/rustup}"
+if [ -f "${CARGO_HOME:-XDG_CACHE_HOME/cargo}/env" ]; then
+    . "${CARGO_HOME:-XDG_CACHE_HOME/cargo}/env"
+fi
 
 # go 
 export GOPATH="${GOPATH:-$XDG_CACHE_HOME/go}"
