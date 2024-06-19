@@ -9,7 +9,6 @@ export ZSH_COMPDUMP="${__zsh_cache_dir}/compdump/.zcompdump-${SHORT_HOST}-${ZSH_
 ZSH_THEME="robbyrussell" # set by `omz`
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 HIST_STAMPS="dd.mm.yyyy"
-ZSH_CUSTOM="$ZDOTDIR/zsh-custom"
 
 for _zrc in $ZDOTDIR/lib/*.zsh; do
   source $_zrc;
