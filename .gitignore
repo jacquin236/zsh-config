@@ -1,6 +1,13 @@
-#zsh
+**.DS_Store
+**.tags
+
+*.log
+
 *zcompdump*
+
 .zsh_history
 *.zwc
 *.zwc.old
 *.bak
+
+
