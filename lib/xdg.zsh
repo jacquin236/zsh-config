@@ -80,3 +80,7 @@ fi
 
 # go 
 export GOPATH="${GOPATH:-$XDG_CACHE_HOME/go}"
+
+# asdf
+export ASDF_DIR="${ASDF_DIR:-$XDG_CONFIG_HOME/asdf}"
+export ASDF_COMPLETIONS="$ASDF_DIR/completions"
