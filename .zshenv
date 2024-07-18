@@ -29,4 +29,3 @@ export ZDOTDIR=${ZDOTDIR:-$XDG_CONFIG_HOME/zsh}
 
 # Modification for autocomplete
 skip_global_compinit=1
-. "/home/bubblegum/.config/cargo/env"
