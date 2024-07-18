@@ -24,14 +24,13 @@ plugins=(
   nvm
   rbenv
   rust
-  python
   zsh-autosuggestions
   fast-syntax-highlighting
   zsh-autocomplete
 )
 
 zstyle ':omz:plugins:nvm' lazy yes
-zstyle ':omz:plugins:nvm' lazy-cmd eslint prettier typescript
+zstyle ':omz:plugins:nvm' lazy-cmd eslint prettier typescript pnpm
 zstyle ':omz:plugins:nvm' autoload yes
 zstyle ':omz:plugins:nvm' silent-autoload yes
 
