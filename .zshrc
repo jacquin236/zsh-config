@@ -24,7 +24,7 @@ plugins=(
   nvm
   rbenv
   rust
-  pyenv
+  python
   zsh-autosuggestions
   fast-syntax-highlighting
   zsh-autocomplete
